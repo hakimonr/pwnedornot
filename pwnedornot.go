@@ -63,7 +63,6 @@ func main() {
 				}
 			}(email)
 
-			// Delay between each goroutine to avoid hitting rate limits
 			time.Sleep(sleepDuration)
 		}
 	}
